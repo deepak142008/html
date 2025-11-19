@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL TRIP FORM</title>
+</head>
+<body>
+    <h2>SCHOOL TRIP FORM</h2>
+    <form action="thankyou.html" method="get"
+    enctype="multipart/form-data">
+    <h3>STUDENT DETAILS</h3>
+      <b>NAME</b>:<input type="text" name="name"
+    required><br><br>
+    <b>FATHER NAME</b>:<input type="text"
+    name="father name"><br><br>
+    <b>MOTHER NAME</b>:<input type="text"
+    name="mother name"><br><br>
+    <b>ROLL NO</b>:<input type="number"
+    name="roll"><br><br>
+    CLASS:
+    <input type="radio" name="class"
+    value="9">9
+    <input type="radio" name="class"
+    value="10">10
+    <input type="radio" name="class"
+    value="11">11
+    <input type="radio" name="class"
+    value="12">12
+    <br></br>
+    SECTION:
+    <input type="radio" name="section " 
+    value="A">A
+    <input type="radio" name="section "
+    value="B">B
+    <input type="radio" name="section " 
+    value="C">C
+    <br><br>
+    <h3>PERMISSION</h3>
+    <textarea name="reason" rows="4" cols="40" placeholder="Explain why you want to go on trip"required></textarea>
+    <br>
+    <h3>Select Facilites</h3>
+    <input type="checkbox" name="canteen"
+    value="yes">Canteen Food <br>
+    <input type="checkbox" name="bus"
+    value="yes">Bus<br>
+    <input type="checkbox" name="medical"
+    value="yes">Medical Facilites<br><br>
+    <h3>Payment Details </h3>
+    Amount Paid:
+    <input type="number" name="amount"
+    required><br><br>
+    Transaction ID:
+    <input type="text"
+    name="Transaction_id" required><br><br>
+    Payment Method:<br>
+    <input type="radio" name="payment"
+    value="UPI" required>UPI<br>
+    <input type="radio" name="payment"
+    value="cash">CASH<br>
+    <input type="radio" name="payment"
+    value="card">CARD<br><br>
+    <select name="payment" id="payment"> select mode of payment
+      <OPTION value="no payment"> select mode of payment</OPTION>
+      <option value="card">CARD</option>
+      <option value="cash"> CASH</option>
+      <option value="upi">UPI</option>
+    </select><br><br>
+
+    Payment Date:
+    <input type="date"
+    name="payment_date"><br>
+    Upload Payment Screenshot:<br>
+    <input type="file"
+    name="screenshot"><br><br>
+    SUMBIT<br>
+    <input type="submit" value="submit form">
+    </form>
+</body>
+</html>
